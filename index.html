@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lotería</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Generador de Números de Lotería</h1>
+        <button id="generateButton">Generar Números</button>
+        <div id="result" class="result-container"></div>
+        <div id="lastGenerated" class="last-generated-container"></div>
+        <button id="scrapeButton">Buscar Resultados de Leidsa</button>
+        <div id="leidsaResults"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+<script>
+    if ('serviceWorker' in navigator) {
+        window.addEventListener('load', () => {
+            navigator.serviceWorker.register('/service-worker.js')
+                .then(registration => {
+                    console.log('Service Worker registrado con éxito:', registration);
+                })
+                .catch(error => {
+                    console.error('Error al registrar el Service Worker:', error);
+                });
+        });
+    }
+</script>
+
+</html>
