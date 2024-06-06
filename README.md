@@ -29,4 +29,4 @@ Para ver los resultados de Leidsa, los cuales se actualizan en tiempo real, simp
 Notas Adicionales
 Los números generados son completamente aleatorios y no garantizan ningún resultado en los juegos de lotería.
 Los resultados de Leidsa son proporcionados por la página web de Leidsa en tiempo real y están sujetos a cambios según la disponibilidad de los mismos.
-¡Disfruta de la emoción de jugar a la lotería con nuestra aplicación Generadora de Núme
+¡Disfruta de la emoción de jugar a la lotería con nuestra aplicación Generadora de Números de Lotería!
